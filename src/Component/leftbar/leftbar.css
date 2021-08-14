@@ -1,0 +1,42 @@
+/* .leftbarButton{
+  border: 2px solid black;
+  border-radius: 1px;
+  background-color: white;
+  color:grey;
+  display:flex;
+  flex :3;
+}
+.leftbarButtonLogo{
+  margin:3px;
+  margin-right: 10px;
+  padding:2px;
+}
+.leftbarButtonText{
+} */
+.ListButton {
+  margin: 0;
+  width: 90%;
+  height: 23px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  display: flex;
+  color: rgb(20, 20, 20);
+  background-color: white;
+}
+.ListButton:hover {
+  background-color: rgb(189, 184, 184);
+  color: rgb(219, 37, 37);
+}
+.ListHr {
+  margin: 7px 0px;
+}
+.ListButtonLogo {
+  margin: 2px 20px 2px 5px;
+  flex: 3;
+}
+.ListButtonText {
+  flex: 7;
+  margin: 5px;
+  font-size: 20px;
+}

@@ -1,0 +1,38 @@
+.cardContainer {
+  display: inline-block;
+  /* margin:50px; */
+  margin: 20px 50px;
+  padding: 2px;
+  max-height: 200px;
+  max-width: 300px;
+  /* border: 2px solid black; */
+}
+.cardtile {
+  height: 100px;
+  width: 200px;
+}
+.CardImage {
+  max-height: 200px;
+  max-width: 300px;
+  height: 100px;
+  object-fit: contain;
+  width: 200px;
+}
+
+.cardInfo {
+  display: flex;
+}
+.cardTitle {
+  display: flex;
+}
+.cardInfoImage {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  margin-right: 10px;
+}
+.cardInfoImageChannel {
+  border: 2px solid white;
+  border-radius: 100%;
+  object-fit: contain;
+}
